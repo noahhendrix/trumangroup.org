@@ -746,7 +746,7 @@ header p {
   background: linear-gradient(#ffe788, #ffe788);
   background-color: #ffeca0;
 }
-#banner .fork {
+#banner .meeting-time {
   position: fixed;
   left: 50%;
   margin-left: -325px;
@@ -756,39 +756,14 @@ header p {
   font-size: 14px;
   background-color: #FFE788;
 }
-#banner .downloads {
-  float: right;
-  margin: 0 45px 0 0;
-}
-#banner .downloads span {
-  float: left;
-  line-height: 52px;
-  font-size: 90%;
-  color: #9d7f0d;
-  text-transform: uppercase;
-  text-shadow: rgba(255, 255, 255, 0.2) 0 1px 0;
-}
-#banner ul {
-  list-style: none;
-  height: 40px;
-  padding: 0;
-  float: left;
-  margin-left: 10px;
-}
-#banner ul li {
-  display: inline;
-}
-#banner ul li a.button {
-  background-color: #FFE788;
-}
 #banner #logo {
   position: absolute;
-  height: 36px;
-  width: 36px;
-  right: 7px;
-  top: 7px;
+  height: 25px;
+  width: 23px;
+  right: 16px;
+  top: 14px;
   display: block;
-  background: url(../images/octocat-logo.png);
+  background: url(../images/clock.png);
 }
 
 section {
@@ -932,7 +907,7 @@ footer {
   #banner {
     top: 80px;
   }
-  #banner .fork {
+  #banner .meeting-time {
     float: left;
     display: inline-block;
     margin-left: 0px;

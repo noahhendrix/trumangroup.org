@@ -15,7 +15,7 @@
 
   </head>
   <body>
-
+      <div id="fb-root"></div>
       <header>
         <h1>Truman Group</h1>
         <p>Working Together for a Better Neighborhood</p>
@@ -29,7 +29,7 @@
     <div class="wrapper">
       <nav>
         <ul>
-          <li class="tag-h1"><a href="/report.html">Report Suspicious Activity</a></li>
+          <li class="tag-h1"><a href="/">Home</a></li>
 
           <li class="tag-h1">Meeting Notes</li>
           <li><a href="/2012/july.html">July 2012</a></li>
@@ -47,23 +47,21 @@
         </ul>
       </nav>
       <section class="first">
-        <h3>Be Informed.</h3>
-        <p>Want to keep up-to-date on our meetings, programs, and any neighborhood emergencies? Please enter your email below to sign up for our mailing list.</p>
-        <form action="/signup" id="sign_up">
-          <input type="email" name="email" placeholder="email@example.com">
-
-          <input type="submit" class="button" value="Sign Up">
-        </form>
-      </section>
-      <section>
-        <h3>Welcome to the Neighborhood.</h3>
-        <p>Thank you for checking out our Neighborhood Watch program. We are committed to working together to make our neighborhood safer, cleaner, and more unified. We accomplish these goals through monthly meetings and other programs to both inform and acquaint residents. We understand that not everyone has time to attend a meeting so we have setup this website to distribute information and organize contact information for residents.  We'd appreciate if you take the time to fill in your email address above and subscribe to our mailing list. We will only send you emails regarding our monthly meetings, programs, or during emergencies.</p>
+        <h3>Report Suspicious Activity</h3>
+        <p>This page is for reporting suspicious activity you see around the neighborhood.</p>
+        <div class="fb-comments" data-num-posts="2" data-width="470" data-colorscheme="light"></div>
       </section>
       <footer>
         <p><small>Organized by Patsy Dale and Penny Shelton</small></p>
       </footer>
     </div>
     <!--[if !IE]><script>fixScale(document);</script><!--<![endif]-->
-
+    <script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
   </body>
 </html>
